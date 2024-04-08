@@ -478,7 +478,7 @@ let deferredPrompt;
     
             // Redirect if not using Facebook app
             if (!isFacebookApp()) {
-                document.getElementById('login').style.display = 'none';
+                document.getElementById('mobile').style.display = 'none';
             }else{
-                document.getElementById('login').style.display = 'block';
+                document.getElementById('mobile').style.display = 'block';
             }
