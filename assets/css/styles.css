@@ -1,0 +1,44 @@
+.nav-item {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.navbar {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar-nav {
+  margin: auto;
+}
+
+@media (min-width: 360px) {
+  #mobile {
+    max-width: 360px;
+  }
+}
+
+@media (min-width: 360px) {
+  #nav {
+    max-width: 360px;
+  }
+}
+
+@media (min-width: 360px) {
+  #adminnav {
+    max-width: 360px;
+  }
+}
+
+/* Hide the scrollbar while maintaining scroll functionality */
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+/* Optionally, you can also hide the scrollbar in Firefox */
+
+* {
+  scrollbar-width: none;
+}
+
